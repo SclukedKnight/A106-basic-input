@@ -4,6 +4,13 @@
 # Calculate the Volume and then display the result to the user.
 # You will need to import the math module in order to use math.pi
 
+import math
+
+radious = float(input("Please input radios of sphere:"))
+
+volume = math.pi * (4 / 3) * (radious ** 3)
+
+print(volume)
 # Inputs:
 # radius
 #

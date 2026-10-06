@@ -12,3 +12,13 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+a = float(input("Input A: "))
+b = float(input("Input B: "))
+c = float(input("Input C: "))
+
+c = c - b
+
+c = c / a
+
+print(c)

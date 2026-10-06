@@ -16,3 +16,14 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+
+import math
+
+r = float(input("Input Radious: "))
+h = float(input("Input Height: "))
+
+c = math.sqrt((r ** 2) + (h ** 2))
+
+sa = (math.pi * (r ** 2) + (math.pi * r * c))
+
+print(f"The SA of the cone is {sa}")
